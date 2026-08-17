@@ -10,7 +10,7 @@ class DashboardScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text('Dashboard Scree',style:  TTextTheme.h1Style(context),)
+          Text('Dashboard Screen',style:  TTextTheme.h1Style(context),)
         ],
       ),
     );

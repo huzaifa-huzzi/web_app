@@ -131,7 +131,7 @@ class WebVendorHeaderAppbar extends StatelessWidget {
               const SizedBox(width: 8),
 
               OutlinedButton.icon(
-                onPressed: onSignOutTap ?? () => controller.signOut(),
+                onPressed: onSignOutTap ?? () => controller.signOut(context),
                 icon: const Icon(
                   Icons.logout_rounded,
                   size: 15,

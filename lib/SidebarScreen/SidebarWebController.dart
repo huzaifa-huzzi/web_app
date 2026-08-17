@@ -1,5 +1,7 @@
 import 'dart:async';
+import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
+import 'package:go_router/go_router.dart';
 
 class SidebarWebController extends GetxController {
    // Top Navigation
@@ -46,8 +48,9 @@ class SidebarWebController extends GetxController {
     return "$h:${m.toString().padLeft(2, '0')}:${s.toString().padLeft(2, '0')}";
   }
 
-  void signOut() {
+  void signOut(BuildContext context) {
     print("User Signed Out");
+    context.go('/login');
   }
 
   @override

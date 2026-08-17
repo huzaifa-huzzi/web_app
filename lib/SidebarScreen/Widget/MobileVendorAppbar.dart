@@ -88,7 +88,7 @@ class MobileVendorHeaderAppbar extends StatelessWidget implements PreferredSizeW
               ),
               child: IconButton(
                 padding: EdgeInsets.zero,
-                onPressed: onSignOutTap ?? () => controller.signOut(),
+                onPressed: onSignOutTap ?? () => controller.signOut(context),
                 icon: const Icon(
                   Icons.logout_rounded,
                   size: 16,

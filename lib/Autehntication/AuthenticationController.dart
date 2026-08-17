@@ -31,7 +31,7 @@ class AuthenticationController extends GetxController {
 
     isLoading.value = false;
 
-    context.go('/dashboard');
+    context.go('/timer');
   }
 
   @override
@@ -74,7 +74,7 @@ class AuthenticationController extends GetxController {
     isLoading.value = true;
     await Future.delayed(const Duration(seconds: 1));
     isLoading.value = false;
-    context.go('/dashboard');
+    context.go('/timer');
 
   }
 

@@ -13,6 +13,11 @@ class IconString {
   static const String  googleIcon = 'assets/icons/GoogleIcon.svg';
   static const String  helpLoginIcon = 'assets/icons/HelpIcon.svg';
 
+   /// Notification
+  static const String  dataSynced = 'assets/icons/Data.svg';
+  static const String  idleWarning = 'assets/icons/idleWarning.svg';
+  static const String  screenshotNotification = 'assets/icons/Screenshot.svg';
+
 
 
 

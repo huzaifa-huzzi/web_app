@@ -76,6 +76,14 @@ class TextString {
   static const String  timerActivityEleven=    "Url Tracking";
   static const String  timerActivityTwelve=    "Record visited URLs to provide browsing and productivity insights.";
 
+   /// Notification Screen
+  static const String  notificationTitle=   "Notifications";
+  static const String  notificationSubtitle=   "Stay informed with real-time alerts and important system updates.";
+  static const String  notificationErrorText=   "No notifications found";
+  static const String  notificationTabOne=    "All";
+  static const String  notificationTabTwo=   "Unread";
+  static const String  notificationFieldText=   "Filter notifications";
+
 
 
 

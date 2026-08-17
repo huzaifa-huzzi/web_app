@@ -84,6 +84,31 @@ class TextString {
   static const String  notificationTabTwo=   "Unread";
   static const String  notificationFieldText=   "Filter notifications";
 
+   /// Setting Screen
+  static const String  settingsTitle=   "Settings";
+  static const String  settingSubtitle=   "Manage your application preferences and account settings.";
+  static const String  settingApplicationTitle=   "Application";
+  static const String  settingApplicationSubtitle=   "Manage your desktop application preferences and behavior.";
+  static const String  settingsApplicationTitleTwo=   "Launch Application on Start up";
+  static const String  settingsApplicationSubtitleTwo=   "Automatically launch the desktop application when your computer starts.";
+  static const String  settingTrackingTitle=  "Auto start Tracking";
+  static const String  settingTrackingSubtitle=  "Automatically start time tracking when the application launches.";
+  static const String  settingAppearenceTitle=   "Appearance and Language";
+  static const String  settingAppearenceSubtitle=   "Customize the application's appearance and language preferences.";
+  static const String  settingNotificationTitle=   "Notifications";
+  static const String  settingNotificationSubtitle=  "Stay informed with real-time alerts and important system updates.";
+  static const String  settingNotificationSound=   "Notification Sound";
+  static const String  settingNotificationTrackingStarted=    "Tracking Started";
+  static const String  settingNotificationTrackingEnd=   "Tracking Stopped";
+  static const String  settingIdle=   "Idle Time Warning";
+  static const String  settingSynchronization=   "Synchronization Completed";
+  static const String  settingSystem=   "System Announcement";
+
+    /// Help Center
+  static const String  helpCenterTitle=   "Help Center";
+  static const String  helpCenterSubtitle=    "Find answers, explore guides, and contact support whenever you need assistance.";
+  static const String  helpCenterFaqTitle=   "FAQS";
+  static const String  helpCenterFaqSubtitle=  "Manage your desktop application preferences and behavior.";
 
 
 

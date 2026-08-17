@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:web_app/Resources/AppSizes.dart';
 import 'package:web_app/Resources/Colors.dart';
 import 'package:web_app/Resources/IconString.dart';
+import 'package:web_app/Resources/TextString.dart';
 import 'package:web_app/Resources/TextTheme.dart';
 import 'package:web_app/SidebarScreen/SidebarWebController.dart';
 import 'package:web_app/SidebarScreen/Widget/MobileVendorAppbar.dart';
@@ -52,7 +53,7 @@ class SidebarWebScreen extends StatelessWidget {
                     ),
                     const SizedBox(width: 12),
                     Text(
-                      "Soft Snip",
+                      TextString.sidebarLogoText,
                       style: TTextTheme.hLogoName(context),
                     ),
                   ],

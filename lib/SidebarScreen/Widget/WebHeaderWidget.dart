@@ -40,7 +40,7 @@ class WebVendorHeaderAppbar extends StatelessWidget {
               ),
               const SizedBox(width: 10),
               Text(
-                "Soft Snip",
+                TextString.sidebarLogoText,
                 style: TTextTheme.hLogoName(context),
               ),
             ],

@@ -45,6 +45,9 @@ class TextString {
   static const String  alreadyAccount=    "Already have an account? ";
   static const String  signOutText=   "Sign Out";
 
+  /// Sidebar
+  static const String  sidebarLogoText=    "Soft Snip";
+
 
 
 

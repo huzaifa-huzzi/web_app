@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:get/get.dart';
 
 class SidebarWebController extends GetxController {
-  /// Selected Top Navigation Item
+   // Top Navigation
   var selected = "Timer".obs;
   var notificationCount = 4.obs;
 
@@ -22,7 +22,7 @@ class SidebarWebController extends GetxController {
     }
   }
 
-  /// Timer Logic
+  // Timer logic
   var isRunning = false.obs;
   var seconds = 0.obs;
   Timer? _timer;
